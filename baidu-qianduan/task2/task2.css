@@ -82,6 +82,10 @@ tr:nth-child(6){
   background:#dedede;
   font-weight:bold;
 }
+aside h2{
+  border-left:2px solid #cdcdcd;
+  text-indent: 10px ;
+}
 aside table{
   width:100%;
   border:none;
