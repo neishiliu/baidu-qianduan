@@ -1,0 +1,41 @@
+*{margin:0;padding:0;}
+.content{
+    margin:20px;
+    background:#eee;
+    border:1px solid #999;
+    overflow: hidden;
+    min-width:720px;
+}
+.left{
+    float:left;
+    width:200px;
+    margin:20px;
+    border:1px solid #999;
+}
+.left img{
+    margin:20px;
+    float:left;
+}
+.left p{
+    margin:20px 0;
+}
+.right{
+    float:right;
+    margin:20px;
+    border:1px solid #999;
+    width:120px;
+}
+.right img{
+    margin:10px 20px;
+}
+img:nth-child(1) {
+    margin-top:20px;
+}
+img:nth-child(4){
+    margin-bottom:20px;
+}
+.center{
+    padding:20px;
+    border:1px solid #999;
+    margin:20px 162px 20px 242px;
+}
