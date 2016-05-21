@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>task2</title>
-    <link rel="stylesheet" type="text/css" href="task2.css">
+    <title>task5</title>
+    <link rel="stylesheet" type="text/css" href="task5.css">
 </head>
 <body>
 <header>
@@ -16,7 +16,7 @@
     <li><a href="#" title="导航链接四">导航链接四</a> </li>
 </ul>
 </header>
-<div class="contant">
+<div class="content">
 <article>
 <h2>文章一级标题</h2>
 <h3>文章二级标题</h3>
@@ -130,62 +130,62 @@
   </tbody>
 </table>
 </article>
-    <footer>版权所有&copy;neishiliu</footer>
+
 </div>
 
 <aside>
-    <h2>这里以后是一个侧栏，这是侧栏标记<span>侧栏注册窗口<span></h2> 
+    <h2>这里以后是一个侧栏，这是侧栏标记<span>侧栏注册窗口</span></h2>
     <form action="http://dd" method="post">
       <table>
        <tr>
         <td><label for="mail">请输入邮箱地址：</label></td>
-        <td><input type="email" name="mail" value="XXX@XXX"></td>
+        <td><input type="email" name="mail" value="XXX@XXX" id="mail"></td>
        </tr>
        <tr>
         <td></td>
-        <td><label>邮箱地址请按要求格式输入</label></td>
+        <td><label class="hui">邮箱地址请按要求格式输入</label></td>
        </tr>
        <tr>
         <td><label for="mima">请输入密码：</label></td>
-        <td><input type="password" name="mima" placeholder="请输入密码" min="6" max="16"></td>
+        <td><input type="password" name="mima" placeholder="请输入密码" min="6" max="16" id="mima"></td>
        </tr>
        <tr>
         <td><label for="again">请重复输入密码：</label></td>
-        <td><input type="password" name="again" placeholder="再次输入密码" min="6" max="16"></td>
+        <td><input id="again" type="password" name="again" placeholder="再次输入密码" min="6" max="16"></td>
        </tr>
        <tr>
         <td></td>
-        <td>密码请为6-16位英文数字</td>
+        <td class="hui">密码请为6-16位英文数字</td>
        </tr>
        <tr>
         <td><label for="gender">性别：</label></td>
-        <td><input type="radio" name="gender" value="男">男
+        <td><input type="radio" name="gender" value="男" id="gender">男
         <input type="radio" name="gender" value="女">女</td>
        </tr>
        <tr>
         <td><label for="city">城市：</label></td>
-        <td><select name="city">
+        <td><select name="city" id="city">
             <option value="内江" >内江</option>
             <option value="成都" selected>成都</option>
             <option value="深圳" >深圳</option>
         </select></td>
        </tr>
        <tr>
-        <td><label for="like">爱好：</label></td>
+        <td><label>爱好：</label></td>
         <td><input type="checkbox" name="like" value="运动">运动
         <input type="checkbox" name="like" value="艺术">艺术
         <input type="checkbox" name="like" value="科学">科学</td>
        </tr>
        <tr>
         <td><label for="introduce">个人描述：</label></td>
-        <td><textarea name="introduce" rows="2" cols="10">请输入你的个人介绍</textarea></td>
+        <td><textarea name="introduce" rows="2" cols="10" id="introduce">请输入你的个人介绍</textarea></td>
        </tr>
       </table>
         <input class="submit" type="submit" value="确认提交">
     </form>
 </aside>
 
-
+<footer>版权所有&copy;neishiliu</footer>
 
 </body>
 </html>
